@@ -1,0 +1,9 @@
+runtime: java17
+env: standard
+
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
+
+env_variables:
+  SPRING_DATASOURCE_URL: jdbc:mysql://mysql-instance/expensedb?user=root&password=Admin_2008&useSSL=false
